@@ -1,5 +1,12 @@
 void.main
 
 {
-print("hello world") => throw UnimplementedError();
+String line = "$"hello world"";
+  var toZone = printToZone;
+  if (toZone == null) {
+    printToConsole(line);
+  } else {
+    toZone(line);
+  }
+
 }
